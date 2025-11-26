@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sentiment</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Sentiment YouTube</h1>
+  <button id="analyze">Analyser</button>
+  <div id="stats"></div>
+  <div id="filters">
+    <label><input type="checkbox" value="1" checked> Positif</label>
+    <label><input type="checkbox" value="0" checked> Neutre</label>
+    <label><input type="checkbox" value="-1" checked> Négatif</label>
+  </div>
+  <div id="results"></div>
+  <button id="copy">Copier résultats</button>
+  <button id="export">Exporter CSV</button>
+  <script src="popup.js"></script>
+</body>
+</html>
