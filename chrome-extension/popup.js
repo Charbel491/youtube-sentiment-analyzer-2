@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:7860/predict_batch'; // ou localhost:8000
+// const API_URL = 'http://localhost:7860/predict_batch'; // ou localhost:8000
+const API_URL = 'https://charbel113-tp-api.hf.space/predict_batch'
 
 document.getElementById('analyze').onclick = async () => {
   const [tab] = await chrome.tabs.query({active:true,currentWindow:true});
