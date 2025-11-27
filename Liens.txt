@@ -1,2 +1,0 @@
-Lien vers le dépôt GitHub publique : https://github.com/Charbel491/youtube-sentiment-analyzer-2.git
-Lien vers pour voir l'api sur hugging face : https://huggingface.co/spaces/Charbel113/tp_api-1
